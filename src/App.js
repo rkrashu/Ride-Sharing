@@ -29,9 +29,7 @@ function App() {
           <PrivateRoute path='/transport/:name'>
             <TransportDetails></TransportDetails>
           </PrivateRoute>
-          <PrivateRoute path='/transport/bike'>
-          <TransportDetails></TransportDetails>
-          </PrivateRoute>
+
           <Route path ='/login'>
             <Login></Login>
           </Route>

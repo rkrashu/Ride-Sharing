@@ -8,6 +8,8 @@ import './transportDetails.css';
 
 const TransportDetails = () => {
 
+   
+
     const [location, setLocation] = useState({
         from: '',
         to: '',
@@ -31,15 +33,15 @@ const TransportDetails = () => {
         event.preventDefault();
     };
 
-    const { title } = useParams();
+    const { name } = useParams();
     const [transport, setTransportInfo] = useState({});
 
     useEffect(() => {
         const info = FakeData.filter(
-            (type) => title === type.title
+            (type) => name === type.name
         );
         setTransportInfo(info[0]);
-    }, [title]);
+    }, [name]);
 
     return (
         <>

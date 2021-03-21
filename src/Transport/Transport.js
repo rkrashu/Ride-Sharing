@@ -3,7 +3,7 @@ import './transport.css'
 
 const Transport = (props) => {
     console.log(props.transport.picture)
-    const {name, picture} =props.transport
+    const {name, id, picture} =props.transport
     return (
         <div className='transport'>
             <div className='transport-img'>

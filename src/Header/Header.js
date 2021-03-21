@@ -12,7 +12,7 @@ const Header = () => {
         <Container fluid={true} className="shadow-sm">
             <Container>
                 <Navbar expand="lg">
-                    <Link to="/"><Navbar.Brand href="#home">Ticket<span className="text-dark">Box</span></Navbar.Brand></Link>
+                    <Link to="/"><Navbar.Brand href="#home">Ride<span className="text-dark"> Sharing</span></Navbar.Brand></Link>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav ">
                         <Nav className="ml-auto p-1">
