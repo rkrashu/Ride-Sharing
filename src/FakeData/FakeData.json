@@ -1,0 +1,26 @@
+[
+    {
+      "id": 1,
+      "picture": "https://images.financialexpress.com/2020/07/Jawa-42-660.jpg",
+      "name": "BIKE",
+      "fare": 500
+    },
+    {
+      "id": 2,
+      "picture": "https://cdn.pixabay.com/photo/2012/04/12/23/48/car-30990__340.png",
+      "name": "CAR",
+      "fare": 1000
+    },
+    {
+      "id": 3,
+      "picture": "https://www.uttaramotorsltd.com/wp-content/uploads/2015/12/LT-Bus.png",
+      "name": "BUS",
+      "fare": 350
+    },
+    {
+      "id": 4,
+      "picture": "https://media.kasperskydaily.com/wp-content/uploads/sites/92/2015/12/06023356/train-hack-featured-1.jpg",
+      "name": "TRAIN",
+      "fare": 300
+    }
+  ]

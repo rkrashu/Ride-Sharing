@@ -1,0 +1,9 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url("../images/Bg.png");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    background-repeat: no-repeat;
+    padding: 10px;
+}

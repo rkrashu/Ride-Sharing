@@ -1,0 +1,17 @@
+.transport img {
+width: 200px;
+height: 150px;
+}
+.transport{
+    padding: 40px;
+}
+.transport-img{
+    height: 170px;
+}
+.transport-name{
+    text-align: center;
+}
+.transport-name button{
+    border: none;
+    background-color:transparent;
+}
